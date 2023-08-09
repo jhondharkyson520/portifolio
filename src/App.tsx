@@ -257,44 +257,44 @@ function App() {
           </div>
         </div>
 
-        <footer className='container-footer'>
-            <div className='footer-contact'>
-                <a 
-                className='footer-button' 
-                href="https://www.linkedin.com/in/jhon-mendon%C3%A7a-203925163/"
-                target='_blank'
-                >
-                  <FaLinkedin size={30} style={{color: '#0e76a8'}}/>
-                </a>
+          <div className='container-footer'>
+              <div className='footer-contact'>
+                  <a 
+                  className='footer-button' 
+                  href="https://www.linkedin.com/in/jhon-mendon%C3%A7a-203925163/"
+                  target='_blank'
+                  >
+                    <FaLinkedin size={30} style={{color: '#0e76a8'}}/>
+                  </a>
 
-                <a 
-                className='footer-button' 
-                href="https://github.com/jhondharkyson520"
-                target='_blank'
-                >
-                  <FaGithub size={30}/>
-                </a>
+                  <a 
+                  className='footer-button' 
+                  href="https://github.com/jhondharkyson520"
+                  target='_blank'
+                  >
+                    <FaGithub size={30}/>
+                  </a>
 
-                <a 
-                className='footer-button' 
-                href="https://api.whatsapp.com/send?phone=5534998277081&text=Olá, Jhon"
-                target='_blank'
-                >
-                  <FaWhatsapp size={30} style={{color: '#25d366'}}/>
-                </a>
-            </div>
+                  <a 
+                  className='footer-button' 
+                  href="https://api.whatsapp.com/send?phone=5534998277081&text=Olá, Jhon"
+                  target='_blank'
+                  >
+                    <FaWhatsapp size={30} style={{color: '#25d366'}}/>
+                  </a>
+              </div>
 
-            <div className='logo-footer'>
-              <img 
-                src= {JmIcon}
-                alt="Logo"
-                className='logo' 
-              />
-            </div>
+              <div className='logo-footer'>
+                <img 
+                  src= {JmIcon}
+                  alt="Logo"
+                  className='logo' 
+                />
+              </div>
 
-            <p className='footer-text'>Copyright | Jhon Mendonça - Todos direitos reservados.</p>
+              <p className='footer-text'>Copyright | Jhon Mendonça - Todos direitos reservados.</p>
 
-        </footer>
+          </div>
 
     </div>
     
