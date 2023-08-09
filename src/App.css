@@ -303,6 +303,10 @@
       transform: translateY(calc(600%));
     }
 
+    .projetos{
+      margin-bottom: 20px;
+    }
+
 }
 
 
