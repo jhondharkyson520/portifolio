@@ -3,7 +3,8 @@
     width: 100%;
     margin: 0 auto;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
+    background-color: #FFF;   
 }
 
 .container-about{
@@ -77,7 +78,8 @@
     justify-content: center;
     margin-right: 200px;
     width: 100%;
-    overflow: hidden;  
+    overflow: hidden;
+    background-color: #FFF;  
   }
     .about{
       width: 50%;
@@ -101,6 +103,7 @@
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
+      
      }
 
     .header-button{
@@ -108,6 +111,12 @@
       flex-direction: column;
       align-items: baseline;
       justify-content: center;
+    }
+
+    .header-button:hover{
+      border: 5px solid transparent;
+      box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+      transform: scale(1.06);
     }
 
     .header{
@@ -266,7 +275,7 @@
 
 .container-footer{
   position: relative;
-  background-color: #555;
+  background-color: #f1f1f1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -291,6 +300,35 @@
   justify-content: center;
   position: relative;
   margin-right: 15px;
+}
+
+.footer-button{
+  margin-right: 18px;
+  
+}
+
+.FaWhatsapp:hover{
+  border: 5px solid transparent;
+  color: #f1f1f1;
+  background-color: #f1f1f1;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+  transform: scale(2.01);
+}
+
+.FaGithub:hover{
+  border: 5px solid transparent;
+  color: #f1f1f1;
+  background-color: #f1f1f1;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+  transform: scale(2.01);
+}
+
+.FaLinkedin:hover{
+  border: 5px solid transparent;
+  color: #f1f1f1;
+  background-color: #f1f1f1;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+  transform: scale(2.01);
 }
 
 @media screen and (max-width: 768px){

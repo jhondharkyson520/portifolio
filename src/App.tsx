@@ -33,7 +33,7 @@ function App() {
               target='_blank'
               >
                 GitHub
-                <FaGithub size={30}/>
+                <FaGithub size={30} style={{color: '#000000'}}/>
               </a>
 
               <a 
@@ -264,7 +264,7 @@ function App() {
                   href="https://www.linkedin.com/in/jhon-mendon%C3%A7a-203925163/"
                   target='_blank'
                   >
-                    <FaLinkedin size={30} style={{color: '#0e76a8'}}/>
+                    <FaLinkedin class='FaLinkedin' size={30} style={{color: '#0e76a8'}}/>
                   </a>
 
                   <a 
@@ -272,7 +272,7 @@ function App() {
                   href="https://github.com/jhondharkyson520"
                   target='_blank'
                   >
-                    <FaGithub size={30}/>
+                    <FaGithub class='FaGithub' size={30} style={{color: '#000000'}}/>
                   </a>
 
                   <a 
@@ -280,7 +280,7 @@ function App() {
                   href="https://api.whatsapp.com/send?phone=5534998277081&text=Olá, Jhon"
                   target='_blank'
                   >
-                    <FaWhatsapp size={30} style={{color: '#25d366'}}/>
+                    <FaWhatsapp class='FaWhatsapp' size={30} style={{color: '#25d366'}}/>
                   </a>
               </div>
 
