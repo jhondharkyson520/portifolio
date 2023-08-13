@@ -108,13 +108,13 @@ function App() {
             <h1>Sorveteria</h1>
           <p>Desenvolver</p>
 
-              <a href="#" target='_blank'>
+              <a href="https://sorveteria-three.vercel.app/" target='_blank'>
                 <button className='button-barber'>
                   Visualizar <FaEye size={20}/>
                 </button>
               </a>
 
-              <a href="#" target='_blank'>
+              <a href="https://github.com/jhondharkyson520/sorveteria" target='_blank'>
                 <button className='button-barber-github'>
                   GitHub <FaGithub size={20}/>
                 </button>
@@ -130,8 +130,6 @@ function App() {
                 <br />
                 CSS3 <FaCss3 style={{color: '#264de4'}}/> 
                 <br />
-                Sass <FaSass size={20} style={{color: '#cc6699'}}/>
-                <br /> 
                 TypeScript <SiTypescript style={{color: '#007acc'}}/>
                 <br />
                 ReactJS <FaReact size={20} style={{color: '#61dbfb'}}/>
