@@ -106,7 +106,7 @@ function App() {
 
           <div className='projeto02'>
             <h1>Sorveteria</h1>
-          <p>Desenvolver</p>
+          <p>Landing page de apresentação de uma sorveteria, com campo de contato funcional.</p>
 
               <a href="https://sorveteria-three.vercel.app/" target='_blank'>
                 <button className='button-barber'>
