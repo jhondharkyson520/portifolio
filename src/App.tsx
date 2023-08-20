@@ -104,7 +104,7 @@ function App() {
               </p>
           </div>
 
-          <div className='projeto02'>
+          <div className='projeto01'>
             <h1>Sorveteria</h1>
           <p>Landing page de apresentação de uma sorveteria, com campo de contato funcional.</p>
 
@@ -140,7 +140,7 @@ function App() {
               </p>
           </div>
 
-          <div className='projeto03'>
+          <div className='projeto01'>
             <h1>Reserva</h1>
           <p>Desenvolver</p>
 
@@ -178,7 +178,7 @@ function App() {
               </p>
           </div>
 
-          <div className='projeto02'>
+          <div className='projeto01'>
             <h1>Finanças</h1>
           <p>Desenvolver</p>
 
@@ -216,7 +216,7 @@ function App() {
               </p>
           </div>
 
-          <div className='projeto02'>
+          <div className='projeto01'>
             <h1>Vendas</h1>
           <p>Desenvolver</p>
 
@@ -251,7 +251,7 @@ function App() {
                 GitHub <FaGithub/>
                 <br />
                 </strong>
-              </p>
+              </p> 
           </div>
         </div>
 
