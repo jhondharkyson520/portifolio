@@ -69,7 +69,7 @@ function App() {
           </div>
         </div>
         
-        <div className='projetos'>
+        <section className='projetos'>
           <div className='projeto01'>
               <h1>Barbearia</h1>
               <p>Landing page de apresentação de uma barbearia.</p>
@@ -139,121 +139,8 @@ function App() {
                 </strong>
               </p>
           </div>
-
-          <div className='projeto01'>
-            <h1>Reserva</h1>
-          <p>Desenvolver</p>
-
-              <a href="#" target='_blank'>
-                <button className='button-barber'>
-                  Visualizar <FaEye size={20}/>
-                </button>
-              </a>
-
-              <a href="#" target='_blank'>
-                <button className='button-barber-github'>
-                  GitHub <FaGithub size={20}/>
-                </button>
-              </a>
-
-              <br />
-              <br />
-              <p><strong>Tecnologias utilizadas: </strong></p>
-              <br />
-              <p>
-                <strong>
-                HTML5 <FaHtml5 style={{color: '#ec6231'}}/> 
-                <br />
-                CSS3 <FaCss3 style={{color: '#264de4'}}/> 
-                <br />
-                Sass <FaSass size={20} style={{color: '#cc6699'}}/>
-                <br /> 
-                TypeScript <SiTypescript style={{color: '#007acc'}}/>
-                <br />
-                ReactJS <FaReact size={20} style={{color: '#61dbfb'}}/>
-                <br />
-                GitHub <FaGithub/>
-                <br />
-                </strong>
-              </p>
-          </div>
-
-          <div className='projeto01'>
-            <h1>Finanças</h1>
-          <p>Desenvolver</p>
-
-              <a href="#" target='_blank'>
-                <button className='button-barber'>
-                  Visualizar <FaEye size={20}/>
-                </button>
-              </a>
-
-              <a href="#" target='_blank'>
-                <button className='button-barber-github'>
-                  GitHub <FaGithub size={20}/>
-                </button>
-              </a>
-
-              <br />
-              <br />
-              <p><strong>Tecnologias utilizadas: </strong></p>
-              <br />
-              <p>
-                <strong>
-                HTML5 <FaHtml5 style={{color: '#ec6231'}}/> 
-                <br />
-                CSS3 <FaCss3 style={{color: '#264de4'}}/> 
-                <br />
-                Sass <FaSass size={20} style={{color: '#cc6699'}}/>
-                <br /> 
-                TypeScript <SiTypescript style={{color: '#007acc'}}/>
-                <br />
-                ReactJS <FaReact size={20} style={{color: '#61dbfb'}}/>
-                <br />
-                GitHub <FaGithub/>
-                <br />
-                </strong>
-              </p>
-          </div>
-
-          <div className='projeto01'>
-            <h1>Vendas</h1>
-          <p>Desenvolver</p>
-
-              <a href="#" target='_blank'>
-                <button className='button-barber'>
-                  Visualizar <FaEye size={20}/>
-                </button>
-              </a>
-
-              <a href="#" target='_blank'>
-                <button className='button-barber-github'>
-                  GitHub <FaGithub size={20}/>
-                </button>
-              </a>
-
-              <br />
-              <br />
-              <p><strong>Tecnologias utilizadas: </strong></p>
-              <br />
-              <p>
-                <strong>
-                HTML5 <FaHtml5 style={{color: '#ec6231'}}/> 
-                <br />
-                CSS3 <FaCss3 style={{color: '#264de4'}}/> 
-                <br />
-                Sass <FaSass size={20} style={{color: '#cc6699'}}/>
-                <br /> 
-                TypeScript <SiTypescript style={{color: '#007acc'}}/>
-                <br />
-                ReactJS <FaReact size={20} style={{color: '#61dbfb'}}/>
-                <br />
-                GitHub <FaGithub/>
-                <br />
-                </strong>
-              </p> 
-          </div>
-        </div>
+          
+        </section>
 
           <div className='container-footer'>
               <div className='footer-contact'>
