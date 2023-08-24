@@ -72,6 +72,7 @@ function App() {
         <section className='projetos'>
           <div className='projeto01'>
               <h1>Barbearia</h1>
+              <br />
               <p>Landing page de apresentação de uma barbearia.</p>
 
               <a href="https://projeto-barberdev-glij.vercel.app/" target='_blank'>
@@ -106,6 +107,7 @@ function App() {
 
           <div className='projeto01'>
             <h1>Sorveteria</h1>
+            <br />
           <p>Landing page de apresentação de uma sorveteria, com campo de contato funcional.</p>
 
               <a href="https://sorveteria-three.vercel.app/" target='_blank'>
@@ -115,6 +117,43 @@ function App() {
               </a>
 
               <a href="https://github.com/jhondharkyson520/sorveteria" target='_blank'>
+                <button className='button-barber-github'>
+                  GitHub <FaGithub size={20}/>
+                </button>
+              </a>
+
+              <br />
+              <br />
+              <p><strong>Tecnologias utilizadas: </strong></p>
+              <br />
+              <p>
+                <strong>
+                HTML5 <FaHtml5 style={{color: '#ec6231'}}/> 
+                <br />
+                CSS3 <FaCss3 style={{color: '#264de4'}}/> 
+                <br />
+                TypeScript <SiTypescript style={{color: '#007acc'}}/>
+                <br />
+                ReactJS <FaReact size={20} style={{color: '#61dbfb'}}/>
+                <br />
+                GitHub <FaGithub/>
+                <br />
+                </strong>
+              </p>
+          </div>
+
+          <div className='projeto01'>
+            <h1>Criptomoedas</h1>
+            <br />
+            <p>Trás uma lista de criptomoedas consumindo a API da coinlib.</p>
+
+              <a href="https://cripto-umber.vercel.app/" target='_blank'>
+                <button className='button-barber'>
+                  Visualizar <FaEye size={20}/>
+                </button>
+              </a>
+
+              <a href="https://github.com/jhondharkyson520/cripto" target='_blank'>
                 <button className='button-barber-github'>
                   GitHub <FaGithub size={20}/>
                 </button>
